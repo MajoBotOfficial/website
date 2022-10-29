@@ -1,0 +1,103 @@
+:root, :root[theme="ASCETIC"] {
+  --font: #e3e7ea;
+
+  --primary: #757a89;
+  --secondary: #78839b;
+  --tertiary: #838b84;
+
+  --background-primary: #171f2c;
+  --background-secondary: #111720;
+  --background-tertiary: #10151d;
+}
+html, body {
+  overflow-x: hidden;
+  background-color: var(--background-primary);
+  color: var(--font);
+}
+::-webkit-scrollbar {
+  background: var(--background-secondary);
+  width: 5px;
+  z-index: 11;
+}
+::-webkit-scrollbar-corner {
+  background: rgba(42, 5, 78, 0.342);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 5px;
+  z-index: 11;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(98, 173, 172);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--heading);
+}
+.btn-dark {
+  background-color: var(--background-secondary);
+}
+code.hljs {
+  background-color: var(--background-secondary);
+}
+
+.user-avatar {
+  max-width: 36px;
+}
+
+.navbar a {
+  color: var(--heading);
+}
+
+.table {
+  color: var(--heading);
+}
+.header {
+  text-align: center;
+}
+
+.dropdown-menu {
+  background-color: var(--background-tertiary);
+  color: var(--font)
+}
+.dropdown-toggle {
+  background-color: var(--background-tertiary);
+  border-color: var(--background-tertiary);
+}
+.dropdown-toggle:hover {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+}
+.dropdown-item:hover {
+  background-color: var(--background-secondary);
+  color: var(--primary);
+}
+
+.jumbotron {
+  margin-top: 25vh;
+}
+.list-group-item {
+  background-color: var(--background-tertiary);
+  color: var(--font)
+}
+.commands li {
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid var(--font) !important;
+}
+
+.accordion-item, .accordion-header, .accordion-button, .show {
+  background-color: var(--background-secondary);
+  color: var(--font);
+}
+.accordion {
+  --bs-accordion-active-bg: var(--background-tertiary);
+  --bs-accordion-border-color: var(--background-tertiary);
+  --bs-accordion-active-color: var(--font);
+}
+.metricCard {
+  width: 12%
+}

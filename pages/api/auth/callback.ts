@@ -103,7 +103,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
       db.collection("users").insertOne(userData);
     }
 
-    req.session.user = {
+    (req.session as any).user = {
       id: user.id,
       email: user.email,
       name: user.username,

@@ -1,0 +1,29 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "tovade",
+      "name": "tovade",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66245404?v=4",
+      "profile": "https://tovade.is-a.dev",
+      "contributions": [
+        "code",
+        "bug",
+        "infra",
+        "maintenance",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "website",
+  "projectOwner": "MajoBotOfficial"
+}
